@@ -75,4 +75,7 @@ public class TeamView extends BaseView {
     public String getProfileLink(WebElement element){
         return element.findElement(By.xpath("//div[contains(@class,'info-block')]//a[contains(@class,'profile-link')]")).getAttribute("href");
     }
+    public String getTeamLink(){
+        return getBranchTeamLink().getAttribute("href");
+    }
 }

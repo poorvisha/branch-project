@@ -32,7 +32,7 @@ public class TeamAction {
         {
             tabView.getCompanyLink().click();
             await().atMost(20, TimeUnit.SECONDS).until(()->tabView.getBranchTeamLink().isDisplayed());
-            tabView.getBranchTeamLink().click();
+            tabView.openPage(tabView.getTeamLink());
         }
         else{
             tabView.getDesktopBranchTeamLink().click();

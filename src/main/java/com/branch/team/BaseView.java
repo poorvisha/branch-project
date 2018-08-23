@@ -17,4 +17,7 @@ public class BaseView {
     public void scrollBySize(int size){
         je.executeScript("window.scrollBy(0,"+size+")");
     }
+    public void openPage(String url){
+        driver.get(url);
+    }
 }
