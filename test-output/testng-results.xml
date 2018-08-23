@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="30326" started-at="2018-08-23T05:52:25Z" finished-at="2018-08-23T05:52:55Z">
+    <groups>
+    </groups>
+    <test name="branchAssignment" duration-ms="30326" started-at="2018-08-23T05:52:25Z" finished-at="2018-08-23T05:52:55Z">
+      <class name="com.branch.Tests.TeamInfoTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.branch.Tests.TeamInfoTest@6a5fc7f7]" name="beforeClass" is-config="true" duration-ms="30175" started-at="2018-08-22T22:52:25Z" finished-at="2018-08-22T22:52:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="employeesDepartmentMatchTest()[pri:0, instance:com.branch.Tests.TeamInfoTest@6a5fc7f7]" name="employeesDepartmentMatchTest" duration-ms="4" started-at="2018-08-22T22:52:55Z" finished-at="2018-08-22T22:52:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeesDepartmentMatchTest -->
+        <test-method status="PASS" signature="employeesImageMatchTest()[pri:0, instance:com.branch.Tests.TeamInfoTest@6a5fc7f7]" name="employeesImageMatchTest" duration-ms="1" started-at="2018-08-22T22:52:55Z" finished-at="2018-08-22T22:52:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeesImageMatchTest -->
+        <test-method status="PASS" signature="employeesNameMatchTest()[pri:0, instance:com.branch.Tests.TeamInfoTest@6a5fc7f7]" name="employeesNameMatchTest" duration-ms="3" started-at="2018-08-22T22:52:55Z" finished-at="2018-08-22T22:52:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeesNameMatchTest -->
+        <test-method status="PASS" signature="profileLinkMatchTest()[pri:0, instance:com.branch.Tests.TeamInfoTest@6a5fc7f7]" name="profileLinkMatchTest" duration-ms="2" started-at="2018-08-22T22:52:55Z" finished-at="2018-08-22T22:52:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profileLinkMatchTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.branch.Tests.TeamInfoTest@6a5fc7f7]" name="afterClass" is-config="true" duration-ms="128" started-at="2018-08-22T22:52:55Z" finished-at="2018-08-22T22:52:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.branch.Tests.TeamInfoTest -->
+    </test> <!-- branchAssignment -->
+  </suite> <!-- Default Suite -->
+</testng-results>
